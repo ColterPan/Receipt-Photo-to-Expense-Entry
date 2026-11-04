@@ -5,6 +5,16 @@ Excel expense sheet, with the original photo archived. A Claude vision model
 extracts the vendor, amount, date, and category; anything it can't read
 confidently is flagged **NEEDS REVIEW** instead of guessed.
 
+## Screenshots
+
+_The real app and pipeline on two sample receipts, with the Claude call replaced by fixed answers so no API key was used._
+
+![Phone flow: choose a photo, process it, see the row written. An unreadable receipt is flagged NEEDS REVIEW](docs/screenshots/receipt-flow.png)
+*Phone flow: choose a photo, process it, see the row written. An unreadable receipt is flagged NEEDS REVIEW*
+
+![The rows written to the Excel expense sheet](docs/screenshots/receipt-excel.png)
+*The rows written to the Excel expense sheet*
+
 ## How it works
 
 ```
